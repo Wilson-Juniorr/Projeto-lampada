@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header, main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px;
+  gap: 50px;
+}
+
+button{ 
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+#lampada{
+  height: 220px;
+}
+
+#turnOn:hover{
+  background-color: #ffbe40;
+  transform: scale(1.1);
+}
+
+#turnOff:hover{
+  transform: scale(1.1);
+  background-color: red;
+}
+
+#repair:hover {
+  transform: scale(1.1);
+  background-color: #13cd4a;
+}
+
+#sumir:hover {
+  transform: scale(1.1);
+  background-color: #fff531;
+}
+
+#show:hover {
+  transform: scale(1.1);
+  background-color: #3134ff;
+}
